@@ -14,7 +14,9 @@ buildscript {
 
 allprojects {
     repositories {
-        mavenLocal()
+        // For our fork of DemoApp, never install from mavenLocal, ensuring we just get published
+        // SDK components
+        //mavenLocal()
         jcenter()
         maven {
             // All of React Native (JS, Obj-C sources, Android binaries) is installed from npm
