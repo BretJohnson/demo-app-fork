@@ -77,6 +77,9 @@ cross-claim or counterclaim.
 {
   NSURL *jsCodeLocation;
 
+  [MSMobileCenter setServerUrl:@"https://in-integration.dev.avalanch.es"];
+  //[MSMobileCenter setLogLevel: MSLogLevelVerbose];
+  
   [RNCrashes registerWithCrashDelegate: [[RNCrashesDelegateAlwaysSend alloc] init]];  // Initialize Mobile Center crashes
 
   [RNAnalytics registerWithInitiallyEnabled:true];  // Initialize Mobile Center analytics
