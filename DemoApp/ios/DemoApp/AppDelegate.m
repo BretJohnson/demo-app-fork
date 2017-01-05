@@ -71,6 +71,8 @@ cross-claim or counterclaim.
 #import "RCTBundleURLProvider.h"
 #import "RCTRootView.h"
 
+@import MobileCenter;
+
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
