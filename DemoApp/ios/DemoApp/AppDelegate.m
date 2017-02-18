@@ -63,9 +63,10 @@ cross-claim or counterclaim.
 */
 
 #import "AppDelegate.h"
-#import "RNCrashes.h"
+#import <RNCrashes/RNCrashes.h>
 
-#import "RNAnalytics.h"
+#import <RNAnalytics/RNAnalytics.h>
+
 
 
 #import "RCTBundleURLProvider.h"

@@ -6,8 +6,8 @@ target 'DemoApp' do
   # use_frameworks!
 
   # Pods for DemoApp
-  pod 'RNMobileCenter', '~> 0.1.0'
-  pod 'MobileCenter', '~> 0.3.0'
+  pod 'RNMobileCenter', '~> 0.2.0'
+  pod 'MobileCenter', '~> 0.4.0'
 
   
 
